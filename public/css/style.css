@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    color: black; 
+    font-size: 30pt;
+    text-decoration: none;
+    font-family: sans-serif;
+    
+}
+
+#dot{
+    color: blue;
+}
+
+#navlinks{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+}
+.navitem{
+    text-decoration: none;
+    color: black;
+    height: 70px;
+}
+
+#hero{
+    display: flex;
+}
+
+#herotext{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#heroimg{
+    height: 100vh;
+}
