@@ -75,6 +75,68 @@ const bottle1 = {
   
   
   
+  // functions
+// defining a function
+function login (username, password) {
+  // validate username and password
+  if (!username|| !password) {
+    return "Username or password not provided";
+  }
+  // verify username and passwordad
+  if (username =="ruthieboat" && password == "1234") {
+    return "User is logged in";
+  } else {
+    return "Invalid User name or password";
+  }
+}
+  
+// invoking a function
+login("ruthieboat" )
+
+
+
+// basic arithmetic operations
+11+12;
+43-12;
+1+0.5;
+45/7;
+5*3;
+14%3;  
+
+Math.floor(45/24);
+Math.random()*1000;
+Math.max (34, 35, 37)
+
+// PEMDAS - parenthesis, exponents, multiplication, division, addition, subtraction
+
+2*3+4-5/2;
+2*(3+4)-5/2;
+
+
+// strings can be convereted  to numbers although user inputs are all recognised as strings
+"2"+"2";
+"2"-"2";
+Number ("ty") + 2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   
   
