@@ -118,6 +118,60 @@ Math.max (34, 35, 37)
 "2"-"2";
 Number ("ty") + 2;
 
+// strings in javascript
+// concatenation
+
+const firstname = "Ruth";
+const lastname = "Boateng";
+firstname + " "  +lastname;
+
+// templae literal
+`${firstname} ${lastname}`;
+
+
+// string methods or functions
+// length-is not a function but a method
+let fullname = "Ruth Boateng";
+fullname.length-1;
+
+// toUpperCase
+fullname.toUpperCase();
+
+fullname.toLowerCase();
+
+fullname.charAt(6);
+
+fullname.slice(7, 11);
+// split picks all characters individually
+fullname.split('');
+
+fullname.replace("Ruth", "Ruthie");
+// index is the preceeding characters before the selected string
+fullname.indexOf("uth")
+
+
+// string conversions
+
+"1234"
+
+Number("3.243");
+parseInt("3.243");
+parseFloat("3.243")
+
+let amount = 18000
+console.log (`GHS${amount}`)
+
+amount.toString();
+
+
+
+
+
+
+
+
+
+
 
 
 
