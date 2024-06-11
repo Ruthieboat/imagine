@@ -188,20 +188,89 @@ participants;
 
 
 // arrays in javascript
-const users = [
-  {
-    username: "ruthieboat33",
-    password: "1234",
-    email: "ruthboatengs1@gmail.com",
-  },
-  {
-    username: "ruthieboat",
-    password: "12345",
-    email: "ruthboatengs112@gmail.com",
-  },
-];
+// const users = [
+//   {
+//     username: "ruthieboat33",
+//     password: "1234",
+//     email: "ruthboatengs1@gmail.com",
+//   },
+//   {
+//     username: "ruthieboat",
+//     password: "12345",
+//     email: "ruthboatengs112@gmail.com",
+//   },
+// ];
 
-users;
+// users;
+// write a function that will take a user with a first name and last name and return fullname (ruthies attempt)
+
+// firstname = "Ruth ";
+// lastname = "Boateng";
+// const user = {
+  // firstname: "Ruth",
+  // lastname: "Boateng",
+// };
+// function addUser(name) {
+  // return firstname + lastname;
+// }
+// addUser();
+
+// write a function that will take a user with a first name and last name and return fullname (michael's)
+
+function fullName(user) {
+  return {
+    ...user,
+    fullName: `${user.firstname} ${user.lastname}`
+  };
+}
+
+const user = {
+  firstname: "Ruth",
+  lastname: "Boateng"
+}
+fullName(user);
+
+// array map
+const users = [
+  {firstname: "Ruth", lastname: "Boateng"},
+  {firstname: "Elon", lastname: "Musk"},
+  {firstname: "Bob", lastname: "Kaufmann"},
+  {firstname: "Isaac", lastname: "Boateng"},
+  {firstname: "Amaris", lastname: "Campbell"},
+]
+  
+// users.map(fullName);
+ 
+
+
+// square of numbers
+function numSquare(number) {
+  return number ** 2;
+}
+numSquare(4);
+
+const numbers = [9,8,7,6,5];
+numbers.map(numSquare);
+
+
+// array filter
+function isEven(number){
+  return number % 2 === 0;
+}
+isEven(15678567890);
+numbers.filter(isEven);
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
