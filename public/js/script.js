@@ -261,6 +261,39 @@ isEven(15678567890);
 numbers.filter(isEven);
 
 
+// write a function that will allow a user reset their password
+// const user = {
+  // email: 'ruthboatengs1@gmail.com',
+  // password: '1234'
+// }
+// user
+function resetPassword (email, password) {
+  // check if email and new password are provided
+  if (!email|| !password) {
+    return "Email or password not provided";
+  }
+  // check if provided email is correct
+  if (email === user.email) {
+    // update password with new one
+    user.password = newPassword;
+    return 'Password reset successful';
+  }
+  if (email !== user.email) {
+    return 'Invalid email';
+  }
+}
+
+user;
+resetPassword('ruthboatengs1@gmail.com');
+user;
+
+// resetPassword('ruthboatengs1@gmail.com', '1234')
+
+
+
+
+
+
 
 
 
