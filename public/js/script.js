@@ -267,9 +267,10 @@ numbers.filter(isEven);
   // password: '1234'
 // }
 // user
-function resetPassword (email, password) {
+// my attempt
+function resetPassword (email, newPassword) {
   // check if email and new password are provided
-  if (!email|| !password) {
+  if (!email|| !newPassword) {
     return "Email or password not provided";
   }
   // check if provided email is correct
@@ -284,28 +285,8 @@ function resetPassword (email, password) {
 }
 
 user;
-resetPassword('ruthboatengs1@gmail.com');
+resetPassword('ruthboatengs1@gmail.com', '3434');
 user;
-
-// resetPassword('ruthboatengs1@gmail.com', '1234')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
